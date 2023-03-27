@@ -5,170 +5,219 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./fonts/">
     <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
+ 
     <div class="container1">
-        <ul>
-            <li><a href=""></a></li>
-            <li><a href="">Главная</a></li>
-            <li><a href="">Вакансии</a></li>
-            <li><a href="">Компании</a></li>
-            <li><a href="">Войти</a></li>
-            <li><button>Регистрация</button></li>
-            <li><a href=""></a></li>
-        </ul>
+        <nav>
+            <div class="nav">
+                <ul class="nav-items">
+                    <li>
+                        <a href="#" class="nav1">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#"  class="nav2">Вакансии</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav3">Компании</a>
+                    </li>
+                </ul>
+               
+               <ul class="header-items">
+                  <li class="header-item">
+                    <a href="#" class="sing-in">Войти</a>
+                  </li>
+                  <li class="header-item">
+                    <button class="log-in">Регистрация</button>
+                  </li>
+               </ul>
+                <i class="icon-logo"></i>
+            </div>
+        </nav>
 
         <h1>Найдите удаленную работу вашей мечты</h1>
-        <p>Создайте резюме или отправьте отклик на вакансию <br> в компании с мировым именем и работайте <br> по свободному графику</p>
-        <input type="button">
+        <p class="p1">Создайте резюме или отправьте отклик на вакансию <br> в компании с мировым именем и работайте <br> по свободному графику</p>
+        <div class="input">
+           <input type="text" placeholder="Начните поиск" >
+           <i class="button-svg"  aria-hidden="true"></i>
+        </div>
         
-        <ul>
+        <ul class="TheEnd">
             <li>
-                <p>Например: </p>
+                <p class="Exemple">Наприклад: </p>
             </li>
             <li>
-                <p>Front-end</p>
+                <p class="Front-end">Front-end</p>
             </li>
             <li>
-                <p>Back-end</p>
+                <p class="Back-end">Back-end</p>
             </li>
             <li>
-                <p>Designer</p>
+                <p class="Designer">Designer</p>
             </li>
         </ul>
 
-        <i class="Logo"></i>
+        
 
         <i class="image2"></i>
         <i class="hero-image"></i>
         <i class="search"></i>
-
-
     </div>
 
-    <div class="conteiner2">
-        <h2>Категории</h2>
-        <ul>
-            <div class="card">Дизайн</div>
-            <div class="card">Разработка</div>
-            <div class="card">Копирайтинг</div>
-            <div class="card">Безопасность</div>
-            <div class="card">Видео</div>
-            <div class="card">Образование</div>
+    <section class="categories">
+        <h3 class="categories-title">Категорія</h3>
+        <ul class="cards">
+            <li class="card-item">
+               <p class="design-text">Дизайн</p>
+                <i class="icon-brush"></i>
+            </li>
+
+            <li class="card-item">
+               <p class="devolopment-text">Розробка</p>
+                <i class="icon-browser-1"></i>
+            </li>
+
+            <li class="card-item">
+                <p class="copywriting-text">Копірайтінг</p>
+                <i class="icon-Vector"></i>
+            </li>
+
+            <li class="card-item">
+               <p class="security-text">Безпека</p>
+                <i class="icon-fingerprint"></i>
+            </li>
+
+            <li class="card-item">
+             <p class="video-text">Відео</p>
+              <i class="icon-Camera"></i>
+            </li>
+
+            <li class="card-item">
+                <p class="education-text">Освіта</p>
+                <i class="icon-school"></i>
+            </li>
         </ul>
-        <i class="brush"></i>
-        <i class="browser"></i>
-        <i class="vector"></i>
-        <i class="fringerprint"></i>
-        <i class="camera"></i>
+    </section>
 
-    </div>
-
-    <div class="conteiner3">
-        <h2>Свежие вакансии</h2>
-        <ul>
-            <div class="cards">
-                <h3>Front-end разработчик</h3>
-                <p>Технопарк, Казань</p>
-                <button>65 000 ₽</button>
-                <ul>
-                    <li>Требования:</li>
-                    <li>React</li>
-                    <li>Sass</li>
-                    <li>Figma</li>
-                </ul>
-                <a href="#">Подробнее →</a>
-                
-                <i class="logo-company"></i>
-
+    <main>
+        <h3 class="new-vacancies">Свежие вакансии</h3>
+        <div class="vacansies-cards">
+            <div class="vacansies-items">
+                <img src="./img/logo-company.png" alt="Error" class="logo">
+                <h6 class="vacansies-title">
+                    Front-end разработчик
+                </h6>
+                <p class="vacansies-description">Технопарк, Казань</p>
+                <button class="btn-coast">65 000 ₽</button>
+                <div class="requirements-div">
+                    <p class="requirements">Требования:</p>
+                    <ul class="requirements-items">
+                        <li class="react">React</li>
+                        <li class="sass">Sass</li>
+                        <li class="figma">Figma</li>
+                    <a href="#" class="more">Подробнее →</a>
+                    </ul>
+                </div>
             </div>
 
-            <div class="cards">
-                <h3>Front-end разработчик</h3>
-                <p>Технопарк, Казань</p>
-                <button>65 000 ₽</button>
-                <ul>
-                    <li>Требования:</li>
-                    <li>React</li>
-                    <li>Sass</li>
-                    <li>Figma</li>
-                </ul>
-                <a href="#">Подробнее →</a>
-
-                <i class="logo-company"></i>
+            <div class="vacansies-items">
+                <img src="./img/logo-company.png" alt="Error" class="logo">
+                <h6 class="vacansies-title">
+                    Front-end разработчик
+                </h6>
+                <p class="vacansies-description">Технопарк, Казань</p>
+                <button class="btn-coast">65 000 ₽</button>
+                <div class="requirements-div">
+                    <p class="requirements">Требования:</p>
+                    <ul class="requirements-items">
+                        <li class="react">React</li>
+                        <li class="sass">Sass</li>
+                        <li class="figma">Figma</li>
+                    <a href="#" class="more">Подробнее →</a>
+                    </ul>
+                </div>
             </div>
 
-            <div class="cards">
-                <h3>Front-end разработчик</h3>
-                <p>Технопарк, Казань</p>
-                <button>65 000 ₽</button>
-                <ul>
-                    <li>Требования:</li>
-                    <li>React</li>
-                    <li>Sass</li>
-                    <li>Figma</li>
-                </ul>
-                <a href="#">Подробнее →</a>
-
-                <i class="logo-company"></i>
+            <div class="vacansies-items">
+                <img src="./img/logo-company.png" alt="Error" class="logo">
+                <h6 class="vacansies-title">
+                    Front-end разработчик
+                </h6>
+                <p class="vacansies-description">Технопарк, Казань</p>
+                <button class="btn-coast">65 000 ₽</button>
+                <div class="requirements-div">
+                    <p class="requirements">Требования:</p>
+                    <ul class="requirements-items">
+                        <li class="react">React</li>
+                        <li class="sass">Sass</li>
+                        <li class="figma">Figma</li>
+                    <a href="#" class="more">Подробнее →</a>
+                    </ul>
+                </div>
             </div>
 
-            <div class="cards">
-                <h3>Front-end разработчик</h3>
-                <p>Технопарк, Казань</p>
-                <button>65 000 ₽</button>
-                <ul>
-                    <li>Требования:</li>
-                    <li>React</li>
-                    <li>Sass</li>
-                    <li>Figma</li>
-                </ul>
-                <a href="#">Подробнее →</a>
-                <i class="logo-company"></i>
+            <div class="vacansies-items">
+                <img src="./img/logo-company.png" alt="Error" class="logo">
+                <h6 class="vacansies-title">
+                    Front-end разработчик
+                </h6>
+                <p class="vacansies-description">Технопарк, Казань</p>
+                <button class="btn-coast">65 000 ₽</button>
+                <div class="requirements-div">
+                    <p class="requirements">Требования:</p>
+                    <ul class="requirements-items">
+                        <li class="react">React</li>
+                        <li class="sass">Sass</li>
+                        <li class="figma">Figma</li>
+                    <a href="#" class="more">Подробнее →</a>
+                    </ul>
+                </div>
             </div>
-
-           
-        </ul>
-        <button>Больше вакансий</button>
-    </div>
-
-    <div class="conteiner4">
-        <h2>Подпишитесь на рассылку <br> с новыми вакансиями</h2>
-        <p>Мы отправляем по одному письму в неделю <br> с подходящими вам вакансиями</p>
-        <input type="button" >
-        <i class="E-mail"></i>
-    </div>
-
-    <div class="conteiner5">
         
-        <p>Сайт с вакансиями для тех, <br> кто ищет удаленную работу</p>
+            <button class="btn-more-vacansies">Больше вакансий</button>
+        </div>
+        <div class="feedback">
+            
+            <h1 class="feedback-heading">Подпишитесь на рассылку с новыми вакансиями</h1>
+            <p class="feedback-text">
+                Мы отправляем по одному письму в неделю с подходящими вам вакансиями
+            </p>
+            <input type="text" placeholder="E-mail">
+            <button class="btn-email">
+                Подписаться
+                <i class="icon-email"></i>
+            </button>
+        </div>
+    </main>
 
-        <ul>
-            <li><h4>Свяжитесь с нами</h4></li>
-            <li><p>8 800 20 20 300</p></li>
-            <li><p>info@findyourjob.net</p></li>
-        </ul>
+    <footer>
+        <i class="footer-logo"></i>
+        <p>Сайт с вакансиями для тех, кто ищет удаленную работу</p>
+        <div class="footer">   
+            <div class="contact-us">
+                <h6>Свяжитесь с нами</h6>
+                <p>8 800 20 20 300</p>
+                <p>info@findyourjob.net</p>
+            </div>
+            <div class="information">
+                <h6>Информация</h6>
+                <p>Обработка данных</p>
+                <p>Конфиденциальность</p>
+                <p>Публичная оферта</p>
+            </div>
+            <div class="site-nav">
+                <h6>Навигация по сайту</h6>
+                <p>Вакансии</p>
+                <p>Компании</p>
+                <p>Контакты</p>
+            </div>
+        </div>
+    </footer>
+    
 
-        <ul>
-            <li><h4>Информация</h4></li>
-            <li><p>Обработка данных</p></li>
-            <li><p>Конфиденциальность</p></li>
-            <li><p>Публичная оферта</p></li>
-        </ul>
-
-        <ul>
-            <li><h4>Навигация по сайту</h4></li>
-            <li><p>Вакансии</p></li>
-            <li>Компании</li>
-            <li>Контакты</li>
-        </ul>
-
-        <i class="Logo"></i>
-        
-    </div>
     
 </body>
 </html>
