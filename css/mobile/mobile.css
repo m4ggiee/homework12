@@ -47,9 +47,10 @@
     font-size: 18px;
     text-align: center;
     color: #111238;
+    
 }
 
- .cards :hover  {
+.cards :hover  {
     color: #FFFFFF;
     background: #1A75E8;
 }
