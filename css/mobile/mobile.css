@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.cards{
+    height: 918px;
+    width: 166px;
+    margin: 40px auto 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-item{
+
+    width: 166px;
+    height: 128px;
+    background: #F2F3F6;
+    border-radius: 10px;
+    font-family: 'Fira Sans';
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-item i{
+    margin-bottom: 15px;
+}
+
+
+.categories-title{
+    padding-top: 50px;
+    font-family: 'Fira Sans';
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #111238;
+}
+
+ .cards :hover  {
+    color: #FFFFFF;
+    background: #1A75E8;
+}
+
