@@ -5,68 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./fonts.css">
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body>
-<!--  
-    <div class="container1">
-        <nav>
-            <div class="nav">
-                <ul class="nav-items">
-                    <li>
-                        <a href="#" class="nav1">Главная</a>
-                    </li>
-                    <li>
-                        <a href="#"  class="nav2">Вакансии</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav3">Компании</a>
-                    </li>
-                </ul>
-               
-               <ul class="header-items">
-                  <li class="header-item">
-                    <a href="#" class="sing-in">Войти</a>
-                  </li>
-                  <li class="header-item">
-                    <button class="log-in">Регистрация</button>
-                  </li>
-               </ul>
-                <i class="icon-logo"></i>
-            </div>
-        </nav>
+  <!-- HEADER -->
+  <header class="conteiner1">
+      
+        <menu>
+              <a href="index.html" >
+                 <img src="./img/header/logo.svg" alt="" class="logotype" >
+              </a>
+              <nav class="burger">
+                  <input type="checkbox"  id="toggle">
+                 <label for="toggle">
+                    <span></span>
+                  </label>
 
-        <h1>Найдите удаленную работу вашей мечты</h1>
-        <p class="p1">Создайте резюме или отправьте отклик на вакансию <br> в компании с мировым именем и работайте <br> по свободному графику</p>
-        <div class="input">
-           <input type="text" placeholder="Начните поиск" >
-           <i class="button-svg"  aria-hidden="true"></i>
-        </div>
-        
-        <ul class="TheEnd">
-            <li>
-                <p class="Exemple">Наприклад: </p>
-            </li>
-            <li>
-                <p class="Front-end">Front-end</p>
-            </li>
-            <li>
-                <p class="Back-end">Back-end</p>
-            </li>
-            <li>
-                <p class="Designer">Designer</p>
-            </li>
-        </ul>
+                  <div class="menu-btn">
+                      <ul class="menu-items">
+                          <li class="menu-item">
+                            <a href="#">Головна</a>
+                           </li>
+                           <li class="menu-item">
+                            <a href="#">Вакансії</a>
+                            </li>
+                            <li class="menu-item">
+                            <a href="#">Компанії</a>
+                              </li>
+                         </ul>
 
-        
+                       <div class="join-block">
+                            <button class="login">Ввійти</button>
+                            <button class="regis">Реєстрація</button>
+                        </div>
+                  </div>
+               </nav>
+        </menu>
 
-        <i class="image2"></i>
-        <i class="hero-image"></i>
-        <i class="search"></i>
-    </div> -->
+          <div class="conteiner2">
+              <h1 class="title">Знайдіть віддалену роботу вашої мрії</h1>
+              <p class="p1">Створіть резюме або надішліть відгук на вакансію в компанію зі світовим ім'ям та працюйте  <br>  за вільним графіком</p>
+              <div class="header-input">
+                 <input type="text" placeholder="Почати пошук" >
+                  <i class="fa fa-search  icon" aria-hidden="true"></i>
+             </div>
+            
+             <div class="TheEnd">
+                  <p class="Exemple">Например: </p>
+                  <ul class="TheEnds">
+                    
+                      <li class="Front-end"> Front-end</li>
+                      <li class="Back-end">Back-end</li>
+                      <li class="Designer" >Designer</li>
+                  </ul>
+             </div>
 
+              <img src="./img/header/hero-image.svg" alt="" class="hero-img">
+          </div>
+        </header>
+  <!-- SECTION -->
     <section class="categories">
         <h3 class="categories-title">Категорія</h3>
         <ul class="cards">
@@ -108,100 +108,153 @@
         </ul>
     </section>
 
-    <!-- <main>
-        <h3 class="new-vacancies">Свежие вакансии</h3>
+    <main class="jobs">
+        <h3 class="jobs-title">Свіжі вакансії</h3>
         <div class="vacansies-cards">
-            <div class="vacansies-items">
-                <img src="./img/logo-company.png" alt="Error" class="logo">
-                <h6 class="vacansies-title">
-                    Front-end разработчик
-                </h6>
-                <p class="vacansies-description">Технопарк, Казань</p>
-                <button class="btn-coast">65 000 ₽</button>
-                <div class="requirements-div">
-                    <p class="requirements">Требования:</p>
-                    <ul class="requirements-items">
-                        <li class="react">React</li>
-                        <li class="sass">Sass</li>
-                        <li class="figma">Figma</li>
-                    <a href="#" class="more">Подробнее →</a>
-                    </ul>
+            <div class="vacansies-card">
+
+                <img src="./img/main/logo-company.svg" alt="Error" class="logo">
+                
+                
+                <div class="vacancie-title">
+                    <h6 class="vacansies-title">
+                        Front-end розробник
+                    </h6>
+                    <p class="vacansies-description">Технопарк, Київ</p>
+
                 </div>
+
+                <button class="btn-coast">2000$</button>
+
+                <div class="vacancie-stack">
+                    <p>Вимоги:</p>
+
+                   <ul class="stack">
+                    
+                    <li class="li1">React</li>
+                    <li class="li2">Sass</li>
+                    <li class="li3">Figma</li>
+                   </ul>
+                </div>
+
+                <a href="#" class="a">Детальніше →</a>
+                
             </div>
 
-            <div class="vacansies-items">
-                <img src="./img/logo-company.png" alt="Error" class="logo">
-                <h6 class="vacansies-title">
-                    Front-end разработчик
-                </h6>
-                <p class="vacansies-description">Технопарк, Казань</p>
-                <button class="btn-coast">65 000 ₽</button>
-                <div class="requirements-div">
-                    <p class="requirements">Требования:</p>
-                    <ul class="requirements-items">
-                        <li class="react">React</li>
-                        <li class="sass">Sass</li>
-                        <li class="figma">Figma</li>
-                    <a href="#" class="more">Подробнее →</a>
-                    </ul>
+            <div class="vacansies-card">
+
+                <img src="./img/main/logo-company.svg" alt="Error" class="logo">
+                
+                
+                <div class="vacancie-title">
+                    <h6 class="vacansies-title">
+                        Front-end розробник
+                    </h6>
+                    <p class="vacansies-description">Технопарк, Київ</p>
+
                 </div>
+
+                <button class="btn-coast">2000$</button>
+
+                <div class="vacancie-stack">
+                    <p>Вимоги:</p>
+
+                   <ul class="stack">
+                    
+                    <li class="li1">React</li>
+                    <li class="li2">Sass</li>
+                    <li class="li3">Figma</li>
+                   </ul>
+                </div>
+
+                <a href="#" class="a">Детальніше →</a>
+                
             </div>
 
-            <div class="vacansies-items">
-                <img src="./img/logo-company.png" alt="Error" class="logo">
-                <h6 class="vacansies-title">
-                    Front-end разработчик
-                </h6>
-                <p class="vacansies-description">Технопарк, Казань</p>
-                <button class="btn-coast">65 000 ₽</button>
-                <div class="requirements-div">
-                    <p class="requirements">Требования:</p>
-                    <ul class="requirements-items">
-                        <li class="react">React</li>
-                        <li class="sass">Sass</li>
-                        <li class="figma">Figma</li>
-                    <a href="#" class="more">Подробнее →</a>
-                    </ul>
+            <div class="vacansies-card">
+
+                <img src="./img/main/logo-company.svg" alt="Error" class="logo">
+                
+                
+                <div class="vacancie-title">
+                    <h6 class="vacansies-title">
+                        Front-end розробник
+                    </h6>
+                    <p class="vacansies-description">Технопарк, Київ</p>
+
                 </div>
+
+                <button class="btn-coast">2000$</button>
+
+                <div class="vacancie-stack">
+                    <p>Вимоги:</p>
+
+                   <ul class="stack">
+                    
+                    <li class="li1">React</li>
+                    <li class="li2">Sass</li>
+                    <li class="li3">Figma</li>
+                   </ul>
+                </div>
+
+                <a href="#" class="a">Детальніше →</a>
+                
             </div>
 
-            <div class="vacansies-items">
-                <img src="./img/logo-company.png" alt="Error" class="logo">
-                <h6 class="vacansies-title">
-                    Front-end разработчик
-                </h6>
-                <p class="vacansies-description">Технопарк, Казань</p>
-                <button class="btn-coast">65 000 ₽</button>
-                <div class="requirements-div">
-                    <p class="requirements">Требования:</p>
-                    <ul class="requirements-items">
-                        <li class="react">React</li>
-                        <li class="sass">Sass</li>
-                        <li class="figma">Figma</li>
-                    <a href="#" class="more">Подробнее →</a>
-                    </ul>
+            <div class="vacansies-card">
+
+                <img src="./img/main/logo-company.svg" alt="Error" class="logo">
+                
+                
+                <div class="vacancie-title">
+                    <h6 class="vacansies-title">
+                        Front-end розробник
+                    </h6>
+                    <p class="vacansies-description">Технопарк, Київ</p>
+
                 </div>
+
+                <button class="btn-coast">2000$</button>
+
+                <div class="vacancie-stack">
+                    <p>Вимоги:</p>
+
+                   <ul class="stack">
+                    
+                    <li class="li1">React</li>
+                    <li class="li2">Sass</li>
+                    <li class="li3">Figma</li>
+                   </ul>
+                </div>
+
+                <a href="#" class="a">Детальніше →</a>
+                
             </div>
-        
-            <button class="btn-more-vacansies">Больше вакансий</button>
+
+
         </div>
-        <div class="feedback">
-            
-            <h1 class="feedback-heading">Подпишитесь на рассылку с новыми вакансиями</h1>
-            <p class="feedback-text">
-                Мы отправляем по одному письму в неделю с подходящими вам вакансиями
-            </p>
-            <input type="text" placeholder="E-mail">
-            <button class="btn-email">
-                Подписаться
-                <i class="icon-email"></i>
-            </button>
-        </div>
+           
     </main>
 
     <footer>
-        <i class="footer-logo"></i>
-        <p>Сайт с вакансиями для тех, кто ищет удаленную работу</p>
+        <div class="E-mail">
+            <h3 class="Footer-title">Підпишіться на розсилку з новими вакансіями</h3>
+            <p class="content">Ми надсилаємо по одному листу на тиждень з підходящими вам вакансіями</p>
+
+            <div class="input">
+                <input type="text" placeholder="E-mail" >
+                <button class="buttonE-mail"><img src="./img/footer/E-mail.svg" alt=""></button>
+             </div>
+
+
+
+
+        </div>
+
+
+
+        <img src="./img/header/logo.svg" alt="" class="footer-logo">
+        <p class="footer-title">Сайт с вакансиями для тех, кто ищет удаленную работу</p>
         <div class="footer">   
             <div class="contact-us">
                 <h6>Свяжитесь с нами</h6>
@@ -222,7 +275,7 @@
             </div>
         </div>
     </footer>
-     -->
+    
 
     
 </body>
