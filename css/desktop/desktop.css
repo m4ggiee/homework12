@@ -1,4 +1,18 @@
 @media (min-width: 1000px) {
+
+    .container1{
+        width: 1440px;
+
+    }
+
+    .hero-img{
+        width: 544.11px;
+        height: 557.49px;
+        padding-top: 88px;
+        padding-left: 735px;
+    }
+
+
     .cards{
     
         flex-direction: row;

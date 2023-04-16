@@ -7,9 +7,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
+
+.vacansies-cards * {
+    box-sizing: border-box;
+}
 *{
   margin: 0;
   padding: 0;
+}
+
+.menu-btn{
+    display: flex;
 }
 
 .cards{
@@ -208,9 +216,7 @@
 .menu-btn{
     display: none;
     
-    height: 783px;
-    
-
+    /* height: 783px; */
 }
 .burger{
    margin-right: 15px;
@@ -332,8 +338,17 @@ input[type="checkbox"]:checked ~ .menu-btn{
     margin-top: 30px;
 }
 
-.button-svg{
-    background: url();
+.header-input button{
+    width: 68.44px;
+    height: 45px;
+    background: #1A75E8;
+    border-radius: 5px;
+
+   
+
+    /* position: absolute;
+    top: 13px;
+    left: 211px; */
 }
 
 
@@ -396,7 +411,13 @@ input[type="checkbox"]:checked ~ .menu-btn{
     width: 252.45px;
     height: 258.65px;
 
-    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 55px;
+
+    
 }
 
 .conteiner2{
@@ -475,12 +496,25 @@ a:hover{
 
 /* FOOTER */
 
+.conteiner3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 50px;
+}
+
 .E-mail{
+    height: 421px;
+    background: #F2F3F6;
+    
+    
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 footer{
@@ -497,6 +531,10 @@ footer{
     text-align: center;
     color: #111238;
 
+}
+
+.footer{
+    margin-top: 57px;
 }
 .content{
     width: 290px;
@@ -516,20 +554,30 @@ footer{
     font-weight: 400;
     font-size: 12px;
     color: #B2B2B2;
+
+    margin-top: 20px;
 }
 
 .input{
-    box-sizing: border-box;
-
-
     width: 290px;
     height: 70px;
+    
 
-
+    box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid rgba(209, 209, 209, 0.1);
     box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
     border-radius: 5px;
+
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    
+    color: #B2B2B2;
 }
 
 .buttonE-mail{
@@ -537,6 +585,10 @@ footer{
     height: 43.75px;
     background: #1A75E8;
     border-radius: 5px;
+
+    
+    
+    
 }
 
 .footer h6{
